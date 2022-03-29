@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WebVISCA</title>
+  <script src="dist/app.js" defer></script>
+</head>
+<body onload="grabWebCamVideo()">
+    <div id="videoCanvas">
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="photo"></canvas>
+  </div>
+
+  <div id="buttons">
+    <button id="snap">Snap</button>
+  </div>
+
+  <button id="clickme">Click Me</button>
+  <button id="devbutton">Devices</button>
+  <button id="requestbutton">Request</button>
+
+</body>
+</html>
